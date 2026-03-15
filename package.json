@@ -1,0 +1,27 @@
+{
+  "name": "piedmont",
+  "displayName": "Piedmont",
+  "description": "Built on solid ground.",
+  "version": "1.0.0",
+  "publisher": "imreallyliam",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Piedmont Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/piedmont-dark.json"
+      },
+      {
+        "label": "Piedmont Light",
+        "uiTheme": "vs",
+        "path": "./themes/piedmont-light.json"
+      }
+    ]
+  }
+}
